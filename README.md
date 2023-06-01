@@ -38,4 +38,3 @@ Attention si vous dépasser les 3 secondes le programme va s’arrêter automati
 
 * en fin on a fait le tour sur tout ce que notre programme est capable de faire .
 
-merci a vous .
