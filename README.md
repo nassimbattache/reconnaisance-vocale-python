@@ -1,40 +1,50 @@
-# Reconnaissace-vocale-python :
-## Guide d'installation et d'execution du programme projet_caa :
-Ce projet a pour objectif de crée un algorithme  qui traite le fonctionnement de la reconnaissance vocale
-* premiére étape consiste a telécharger le ficher python projet_caa
-* Après avoir finie le téléchargement si vous êtes sur Windows exécuter les trois lignes de commande suivantes afin d’installer ces trois modules Pyaudio, Speechrecognition et Pyttsx3 nécessaire pour la reconnaissance vocale.
+# Speech Recognition Python
 
-pip install pyaudio
+## Installation and Execution Guide for the "projet_caa" Program
 
-pip install Speechrecognition
+This project aims to create an algorithm that processes speech recognition functionality.
 
-pip install Pyttsx3
+### Step 1: Download the "projet_caa" Python File
 
-- en cas ou vous rencontrer un problème avec l'installation de Pyaudio qui est parfois compliquer, vous pouvez passer par le terminal de Windows en exécutant les deux lignes de commande suivantes .
+* Download the "projet_caa" Python file.
 
-pip install pipwin
+### Step 2: Install Required Libraries
 
-pipiwin install payaudio
+* For Windows users, execute the following three command lines to install the necessary modules for speech recognition: Pyaudio, SpeechRecognition, and Pyttsx3.
+  ```shell
+  pip install pyaudio
+  pip install SpeechRecognition
+  pip install pyttsx3
 
-* Dans le cas ou vous travailler sous linux ou MacOs utiliser les commandes suivantes :
+* If you encounter any issues with Pyaudio installation, you can use the Windows terminal and execute the following two command lines:
+  ```shell
+  pip install pipwin
+  pipwin install pyaudio
+* For Linux or macOS users, use the following commands:
+  ```shell
+  sudo apt-get install python-pyaudio python3-pyaudio
+  pip install SpeechRecognition
+  pip install pyttsx3
+  
+## Step 3: Verify Internet Connection
 
-sudo apt-get install python-pyaudio python3-pyaudio
+Ensure that you are connected to the internet, as the program requires an internet connection to function properly.
 
-pip install Speechrecognition
+## Step 4: Execute the Program
 
-pip install Pyttsx3
+Once you have established an internet connection and installed the required libraries, you are ready to execute the program.
 
-* deuxièmement il faut bien vérifier que vous êtes connectée a internet, sans internet le programme ne marchera pas. 
-* Une fois que vous avez établie une connexion internet et que vous avez installé les bibliothèques précédentes , dés a présent vous etes prêt à exécuter le programme.
-## Fonctionnement du programme :
-Après l’exécution vous allez voir ce message qui s’affichera sur votre terminal « SVP commencer à parler après une seconde »
-* A partir de là vous avez une seconde pour commencer à parler ,
-Attention si vous dépasser les 3 secondes le programme va s’arrêter automatiquement et il faudra dans ce cas le recompiler une autre fois .
-* Le programme est muni d’une fréquence seuil  qui consiste à filtrer le son de la source, autrement dit différencier entre les paroles afin de capter les paroles et non pas le bruite. dans ce cas il est préférable de se rapprocher de votre ordinateur afin d'avoir une meilleure reconnaissance.
+## Program Functionality
 
-* quand vous commencerez a parler, vos paroles vont être transcrite sur votre terminal et puis retranscrite d’un texte a des paroles.  	
+After execution, you will see the message "Please start speaking after one second" displayed on your terminal.
 
-* quelques détails aussi, on a rajout d'un mini assistant, qui vous répond a quelques questions par exemple quelle jour il  est ou quand vous lui dite bonjour , il vas par exemple vous donner exactement le jour ou aussi dans le cas ou il ne compred pas ce que vous lui avez dit, dans ce cas il va vous renvoyer un message de répéter et qu’il ne vous a pas compris.
+* From this point, you have one second to start speaking.
+* Note that if you exceed three seconds, the program will automatically stop, and you will need to recompile it.
 
-* en fin on a fait le tour sur tout ce que notre programme est capable de faire .
+The program is equipped with a threshold frequency to filter the sound source, distinguishing between speech and noise. It is recommended to be close to your computer for better speech recognition.
 
+When you start speaking, your words will be transcribed on your terminal and then converted from text to speech.
+
+Additionally, the program includes a mini assistant that can respond to certain questions, such as providing the current day or greeting you when you say "hello." If the program doesn't understand what you said, it will ask you to repeat it.
+
+That covers the capabilities of our program.
